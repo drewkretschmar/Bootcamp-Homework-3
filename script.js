@@ -16,6 +16,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function promptCriteria() {
+  alert("Please select which criteria to use when generating your new password.")
   prompt("How long do you want your new passowrd to be? Please choose between 8-128 characters.");
   confirm("Would you like to include lowercase characters?");
   confirm("Would you like to include uppercase characters?");
